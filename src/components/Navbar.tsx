@@ -36,9 +36,9 @@ const Navbar = () => {
 
           <nav className="hidden md:flex items-center space-x-6 text-xl text-white font-serif">
 
-            <Link href="/" className="mr-5 pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Home</Link>
+            <Link href="/" className="mr-5 pb-1 border-b-4 text-pink-500 border-pink-500">Home</Link>
             <Link href="#about" className="mr-5 pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">About</Link>
-            <Link href="#Skills" className="mr-5 pb-1 border-b-4 text-pink-500 border-pink-500">Skills</Link>
+            <Link href="#Skills" className="mr-5 pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Skills</Link>
             <Link href="#project" className="mr-5 pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Projects</Link>
             <Link href="#Contact" className="mr-5 pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Contact</Link>
 
@@ -51,9 +51,9 @@ const Navbar = () => {
             <SheetContent className='bg-black text-white border-l-2 border-white'>
               <nav className='flex flex-col text-center text-xl pt-20 space-y-4'>
 
-                <Link href="/" className="inline-block mx-auto pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Home</Link>
+                <Link href="/" className="inline-block mx-auto pb-1 border-b-4 text-pink-500 border-pink-500">Home</Link>
                 <Link href="#about" className="inline-block mx-auto pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">About</Link>
-                <Link href="#Skills" className="inline-block mx-auto pb-1 border-b-4 text-pink-500 border-pink-500">Skills</Link>
+                <Link href="#Skills" className="inline-block mx-auto pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Skills</Link>
                 <Link href="#project" className="inline-block mx-auto pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Projects</Link>
                 <Link href="#Contact" className="inline-block mx-auto pb-1 border-b-4 border-transparent hover:text-pink-500 hover:border-pink-500">Contact</Link>
 
