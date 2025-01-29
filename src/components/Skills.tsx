@@ -1,12 +1,10 @@
 import React from 'react'
-import { AiOutlineCheckSquare } from "react-icons/ai";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
-
 
 const Skills = () => {
   return (
