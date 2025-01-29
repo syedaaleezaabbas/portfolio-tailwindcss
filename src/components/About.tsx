@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image"
-import { PiX } from 'react-icons/pi'
 
 const About = () => {
   return (
